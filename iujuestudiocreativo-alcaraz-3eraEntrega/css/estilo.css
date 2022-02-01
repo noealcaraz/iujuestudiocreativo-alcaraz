@@ -47,7 +47,7 @@
 
 .header a:hover{
     transition: ease-in;
-    color: #1b1b1b;
+    color: #f9f9f9;
     font-size: 18px;
 }
 
@@ -162,6 +162,14 @@
     padding: 10px;
     margin: 20px 100px 50px 200px;
     height: 500px;
+}
+
+.card-img-top{
+    padding: 100px;
+}
+
+.card-img-bottom{
+    padding: 100px;
 }
 
 /* NOSOTROS */
