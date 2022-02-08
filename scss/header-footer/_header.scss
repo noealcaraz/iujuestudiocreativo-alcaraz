@@ -1,0 +1,36 @@
+header{
+    background-color: #000000;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    h1{
+        font-size: 60px;
+        text-align: center;
+        justify-content: center;
+        padding: 0 0 0 250px;
+        color: #f9f9f9;
+    }
+    ul{
+        display: flex;
+        margin: 10px 200px;
+    }
+    li{
+        list-style: none;
+        margin: 0 20px;
+        a{
+            color: #846671;
+            font-size: 18px;
+            transition: .4s all ease 0s;
+            text-decoration: none;
+            letter-spacing: .4px;
+            &:hover{
+                text-decoration: none;
+                transition: ease-in;
+                color: #f9f9f9;
+                font-size: 18px;
+            }
+        }
+    }
+}

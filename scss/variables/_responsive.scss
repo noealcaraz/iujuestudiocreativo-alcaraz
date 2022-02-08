@@ -1,0 +1,273 @@
+// TAMAÑO TABLET
+@media (max-width: 768px){
+    .header{
+        flex-direction: column;
+        height: 25vh;
+        align-content: center;
+        h1{
+            font-size: 45px;
+            align-content: center;
+            padding: 10px 200px;
+            justify-content: center;
+            color: #f9f9f9;
+        }
+        ul{
+            display: flex;
+            margin: 0 100px ;
+        }
+        li{
+            margin: 0 20px;
+        }
+    }
+
+    .divIndex h2{
+       font-family: 'Oswald', sans-serif;
+       font-size: 33px;
+   }
+
+   .proyectos{
+       font-size: 33px;
+   }
+
+   .clientes{
+       font-size: 33px;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+   }
+
+   .card-img-top{
+       padding: 15px;
+   }
+   
+   .card-img-bottom{
+       padding: 15px;
+   }
+
+   .footer h2{
+       font-size: 30px;
+       h3{
+        font-size: 23px;
+    }
+   }
+  
+   .redes li{
+       display: inline-block;
+       padding: 25px 20px;
+   }
+
+   .redes li img{
+       width: 30px;
+   }
+
+}
+
+// TAMAÑO MOBILE L
+@media (max-width: 425px){
+   
+   .header{
+       height: 20vh;
+       li{
+        margin: 0 12px;
+        a{
+            font-size: 12px;
+        }
+    }
+   }
+
+   .header a:hover{
+       transition: ease-in;
+       color: #f9f9f9;
+       font-size: 12px;
+   }
+
+   .divIndex h2{
+       font-size: 20px;
+   }
+
+   .proyectos{
+       font-size: 20px;
+       margin: 0;
+   }
+
+   .container {
+       display: grid; 
+       background-color: #c8beb9;
+       grid-template-columns: 1fr; 
+       grid-template-rows: 1fr; 
+       gap: 0px 0px; 
+       grid-template-areas: 
+         "vinito"
+         "sirenita"
+         "campo"
+         "gafas"
+         "automovil"
+         "bambi"
+         "offantes"
+         "offdespues"; 
+   }
+
+   .clientes{
+       font-size: 25px;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .card-img-top{
+       padding: 10px;
+   }
+   
+   .card-img-bottom{
+       padding: 10px;
+   }
+
+   .footer{
+       height: 40vh;
+       h2{
+            font-size: 22px;
+            letter-spacing: 7px;
+            padding: 0 0 0 40px;
+            justify-content: center;
+        }
+        h3{
+            margin: 20px 0;
+            font-size: 17px;
+            padding: 0;
+        }
+   }
+
+   .redes 
+        li{
+            padding: 0 7px;
+        img{
+            width: 20px !important;
+        }
+   }
+
+}
+
+// TAMAÑO MOBILE M
+@media (max-width: 375px){
+   .header{
+       height: 20vh;
+   }
+
+   .header li{
+       margin: 0 9px;
+   }
+   
+   .header li a{
+       font-size: 10px;
+   }
+
+   .header a:hover{
+       font-size: 10px;
+   }
+
+   .divIndex h2{
+       font-size: 20px;
+   }
+
+   .proyectos{
+       font-size: 20px;
+       margin: 0;
+   } 
+
+   .container{
+       background-color: #c8beb9;
+   }
+
+   .clientes{
+       margin: 0;
+       padding: 20px;
+       font-size: 20px;
+   }
+
+   .card-img-top{
+       padding: 10px;
+   }
+   
+   .card-img-bottom{
+       padding: 10px;
+   }
+   
+   .footer 
+        h2{
+        font-size: 19px;
+        letter-spacing: 6px;
+        padding: 0 20px 0 17px;
+        margin: 0;
+       h3{
+        margin: 20px 0;
+        font-size: 17px;
+        padding: 0;
+    }
+   }
+
+}
+
+// TAMAÑO MOBILE S 
+@media (max-width: 320px){
+   .header h1{
+       font-size: 30px;
+   }
+
+   .header li{
+       margin: 4px;
+   }
+
+   .divIndex h2{
+       font-size: 15px;
+   }
+
+   .footer{
+       height: 49vh;
+   }
+
+   .footer h2{
+       font-size: 19px;
+       letter-spacing: 6px;
+       align-content: center;
+       margin: 0;
+   }
+
+   .footer h3{
+       font-size: 15px;
+       padding: 0;
+   }
+
+   .redes li{
+       padding: 5px;
+   }
+
+   .redes img:hover{
+       transform: scale(0.8);
+       transition: all .4s;
+   }
+
+   .proyectos{
+       font-size: 15px;
+       margin: 0;
+   }
+
+   .container{
+       background-color: #c8beb9;
+   }
+
+   .clientes{
+       font-size: 15px;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+       margin: 0;
+   }
+
+   .card-img-top{
+       padding: 10px;
+   }
+   
+   .card-img-bottom{
+       padding: 10px;
+   }
+
+}

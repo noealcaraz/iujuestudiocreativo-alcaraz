@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+// VARIABLES
+@import './variables/responsive';
+
+//IMPORTACIONES
+@import './header-footer/header';
+@import './secciones/index';
+@import './secciones/proyectos';
+@import './secciones/clientes';
+@import './secciones/nosotros';
+@import './secciones/contacto';
+@import './header-footer/footer';

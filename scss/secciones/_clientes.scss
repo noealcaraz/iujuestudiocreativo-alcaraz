@@ -1,0 +1,36 @@
+.clientes{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 30px 60px 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .7px;
+    font-size: 40px; 
+    background-color: #c8beb9;
+}
+
+.off{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0 0 0 70px;
+}
+
+.letras{
+    font-family: 'Oswald', sans-serif;
+}
+
+.clientesImg1{
+    display: flex;
+    padding: 10px;
+    margin: 20px 100px 50px 200px;
+    height: 500px;
+}
+
+.card-img-top{
+    padding: 100px;
+}
+
+.card-img-bottom{
+    padding: 100px;
+}
