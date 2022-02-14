@@ -85,11 +85,9 @@
       margin: 20px 0;
       font-size: 17px;
       padding: 0; }
-  .redes
-li {
+  .redes li {
     padding: 0 7px; }
-    .redes
-li img {
+    .redes li img {
       width: 20px !important; } }
 
 @media (max-width: 375px) {
@@ -116,14 +114,12 @@ li img {
     padding: 10px; }
   .card-img-bottom {
     padding: 10px; }
-  .footer
-h2 {
+  .footer h2 {
     font-size: 19px;
     letter-spacing: 6px;
     padding: 0 20px 0 17px;
     margin: 0; }
-    .footer
-h2 h3 {
+    .footer h2 h3 {
       margin: 20px 0;
       font-size: 17px;
       padding: 0; } }
@@ -166,6 +162,13 @@ h2 h3 {
   .card-img-bottom {
     padding: 10px; } }
 
+.divIndex h2 {
+  margin-top: 15px;
+  font-size: 45px;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .7px; }
+
 header {
   background-color: #000000;
   height: 20vh;
@@ -202,12 +205,6 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #c8beb9; }
-  .divIndex h2 {
-    margin-top: 15px;
-    font-size: 45px;
-    padding: 20px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .7px; }
   .divIndex img {
     width: 90%;
     padding: 20px 0 40px 0; }
@@ -326,6 +323,15 @@ header {
   font-family: 'Oswald', sans-serif;
   font-size: 40px; }
 
+.mainContacto {
+  background-color: #c8beb9; }
+
+.formulari {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black; }
+
 .footer {
   display: flex;
   padding: 50px 100px;
@@ -342,14 +348,11 @@ header {
     padding: 20px 0;
     letter-spacing: 7px; }
 
-.redes
-li {
+.redes li {
   display: inline-block;
   padding: 25px 20px; }
-  .redes
-li img {
+  .redes li img {
     width: 40px; }
-    .redes
-li img:hover {
+    .redes li img:hover {
       transform: scale(0.8);
       transition: all .4s; }

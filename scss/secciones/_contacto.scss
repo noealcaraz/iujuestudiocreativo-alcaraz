@@ -6,3 +6,18 @@
     font-family: 'Oswald', sans-serif;
     font-size: 40px; 
 }
+
+.mainContacto{
+    @if ($colorFondo == true){
+        background-color: #c8beb9;
+    } @else {
+        background-color: gray;
+    }
+}
+
+.formulari{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}

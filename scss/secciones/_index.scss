@@ -4,11 +4,7 @@
     align-items: center;
     background-color: #c8beb9;
     h2{
-        margin-top: 15px;
-        font-size: 45px;
-        padding: 20px;
-        font-family: 'Oswald', sans-serif;
-        letter-spacing: .7px;
+        @extend %estiloTitulo
     }
     img{
         width: 90%;

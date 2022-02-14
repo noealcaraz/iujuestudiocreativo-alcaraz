@@ -1,0 +1,17 @@
+1- Agregue colores y extend
+2- En el h2 del index agregue el extend %estiloTitulo
+3- Para mejorar el SEO de mi sitio:
+
+- Agregue keywords en mis archivos html:
+.index = "creativo, estudio, publicidad, marketing, estilo, photoshop, retoque, imagenes"
+.nosotros = "equipo, retocador, diseño grafico, publicidad, nosotros"
+.contacto = "contacto, telefono, direccion, ubicacion, mail, atencion, cliente"
+.clientes = "off, cliente, photoshop, retoque digital, diseño grafico" 
+.proyectos = "proyectos, autos, retoque digital, photoshop, creativo"
+
+- Agregue description en mis archivos html: 
+.index = "Estudio creativo de retoque de imagenes"
+.proyectos = "Proyectos terminados con retoque digital"
+.clientes = "Listado de clientes que trabajaron con nosotros"
+.nosotros = "Personas que conforman el equipo de iuju"
+.contacto = "Formulario de consulta y contacto"
