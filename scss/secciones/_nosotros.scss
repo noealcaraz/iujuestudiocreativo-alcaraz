@@ -1,26 +1,36 @@
-.nosotros{
+.mainNosotros{
+    background-color: $blanco;
+}
+
+
+.nosotros
+    h1{
     display: flex;
     align-items: center;
     justify-content: left;
     padding: 30px 10px 20px 70px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 60px;
 }
 
-.albermaca{
-    display: flex;
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-    justify-content: space-around;
-    margin: 20px;
-    flex-direction: row;
+.textoInformativo 
+    .parrafo1{
+        font-family: $osvaldo;
+        font-size: 40px;
+        font-style: bold;
+        padding: 30px;
+        display: flex;
+        text-align: center;
+    }
+    .parrafo2{
+        font-family: $osvaldo;
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        padding: 40px;
+    }
+
+.imgAlbert{
+    padding: 0 0 40px 500px;
 }
 
-.nosotrosP{
-    display: flex;
-    font-size: medium;
-    font-family: 'Oswald', sans-serif;
-    justify-content: left;
-    margin: 20px;
-    flex-direction: row;
-}

@@ -1,11 +1,14 @@
 // TAMAÑO TABLET
 @media (max-width: 768px){
+
+//HEADER
+
     .header{
         flex-direction: column;
-        height: 25vh;
+        height: 30vh;
         align-content: center;
         h1{
-            font-size: 45px;
+            font-size: 40px;
             align-content: center;
             padding: 10px 200px;
             justify-content: center;
@@ -17,20 +20,45 @@
         }
         li{
             margin: 0 20px;
+            a{
+                font-size: 20px;
+            }
         }
     }
 
-    .divIndex h2{
-       font-family: 'Oswald', sans-serif;
-       font-size: 33px;
-   }
+    .divIndex{
+        h2{
+            font-size: 10px;
+        }
+    }
+
+//FOOTER
+
+   .footer h2{
+    font-size: 15px;
+    h3{
+     font-size: 20px;
+    }
+}
+
+.redes li{
+    display: inline-block;
+    padding: 25px 20px;
+    &img{
+     width: 30px;
+ }
+}
+    
+//PROYECTOS
 
    .proyectos{
-       font-size: 33px;
+       font-size: 20px;
    }
 
+//CLIENTES
+
    .clientes{
-       font-size: 33px;
+       font-size: 23px;
        justify-content: center;
        align-items: center;
        padding: 20px;
@@ -44,33 +72,52 @@
        padding: 15px;
    }
 
-   .footer h2{
-       font-size: 30px;
-       h3{
-        font-size: 23px;
-    }
-   }
-  
-   .redes li{
-       display: inline-block;
-       padding: 25px 20px;
-   }
+//CONTACTO
 
-   .redes li img{
-       width: 30px;
-   }
+    .mainContacto{
+        .consulta{
+            font-size: 1.7rem;
+        }
+        .divFormu{
+            grid-template-columns: 220px 220px;
+            grid-template-rows: 100px 100px;
+            grid-gap: 100px;
+            grid-template-areas:
+               "formulari formulari"
+               "formulari formulari"
+               "mapita mapita";
+               .mapita{
+                   padding: 0 0 30px 60px;
+               }
+        }
+        .formulari{
+            margin: 0 0 0 30px;
+        }
+    }
+
+//NOSOTROS
+
+.nosotros
+    h1{
+        font-size: 10px;
+    }
+.imgAlbert{
+    width: 60px;
+}
 
 }
 
 // TAMAÑO MOBILE L
 @media (max-width: 425px){
-   
+
+//HEADER
+
    .header{
-       height: 20vh;
+       height: 25vh;
        li{
-        margin: 0 12px;
+        margin: 0 13px;
         a{
-            font-size: 12px;
+            font-size: 13px;
         }
     }
    }
@@ -81,12 +128,40 @@
        font-size: 12px;
    }
 
-   .divIndex h2{
-       font-size: 20px;
-   }
+//FOOTER
+    .footer{
+        height: 90vh;
+        h2{
+             font-size: 10px;
+            letter-spacing: 7px;
+             padding: 0 0 0 40px;
+             justify-content: center;
+         }
+         h3{
+             margin: 20px 0;
+            font-size: 17px;
+            padding: 0;
+        }
+}
+
+    .redes 
+        li{
+            padding: 0 7px;
+        img{
+            width: 20px !important;
+        }
+}
+
+//INDEX
+
+    .divIndex h2{
+        font-size: 40px;
+}
+
+//PROYECTOS
 
    .proyectos{
-       font-size: 20px;
+       font-size: 15px;
        margin: 0;
    }
 
@@ -107,6 +182,8 @@
          "offdespues"; 
    }
 
+//CLIENTES
+
    .clientes{
        font-size: 25px;
        justify-content: center;
@@ -121,55 +198,73 @@
        padding: 10px;
    }
 
-   .footer{
-       height: 40vh;
-       h2{
-            font-size: 22px;
-            letter-spacing: 7px;
-            padding: 0 0 0 40px;
-            justify-content: center;
-        }
-        h3{
-            margin: 20px 0;
-            font-size: 17px;
-            padding: 0;
-        }
-   }
+//CONTACTO
 
-   .redes 
-        li{
-            padding: 0 7px;
-        img{
-            width: 20px !important;
+    .mainContacto{
+        .consulta{
+            font-size: 20px;
         }
-   }
+        .divFormu{
+            grid-template-columns: 220px;
+            grid-template-rows: 100px;
+            grid-gap: 50px;
+            grid-template-areas:
+                "formulari"
+                "formulari"
+                "mapita";
+            .mapita{
+               display: none;
+           }
+    }
+    .formulari{
+        margin: 0 0 0 30px;
+        button{
+            padding: 5px;
+            margin: 8px;
+            font-size: 20px;
+        }
+        .field{
+            width: 73vw;
+        }
+    }
+    .form input{
+        width: 73vw;
+    }
+}
 
 }
 
 // TAMAÑO MOBILE M
 @media (max-width: 375px){
-   .header{
-       height: 20vh;
-   }
 
-   .header li{
-       margin: 0 9px;
-   }
-   
-   .header li a{
-       font-size: 10px;
-   }
+//HEADER
 
-   .header a:hover{
-       font-size: 10px;
-   }
+    .header{
+       height: 30vh;
+       h1{
+           padding: 10px 100px;
+       }
+       li{
+        margin: 0 7px;
+        &a{
+            font-size: 10px;
+            &:hover{
+                font-size: 10px;
+            }
+        }
+        }
+    }
+
+//INDEX
 
    .divIndex h2{
        font-size: 20px;
    }
 
+//PROYECTOS
+
    .proyectos{
-       font-size: 20px;
+       font-size: 15px;
        margin: 0;
    } 
 
@@ -177,10 +272,16 @@
        background-color: #c8beb9;
    }
 
+//CLIENTES
+
    .clientes{
        margin: 0;
        padding: 20px;
        font-size: 20px;
+   }
+
+   .letras{
+       font-size: 15px;
    }
 
    .card-img-top{
@@ -191,59 +292,82 @@
        padding: 10px;
    }
    
-   .footer 
+//FOOTER
+
+   .footer {
+       height: 100vh;
         h2{
-        font-size: 19px;
+        font-size: 15px;
         letter-spacing: 6px;
         padding: 0 20px 0 17px;
         margin: 0;
        h3{
         margin: 20px 0;
-        font-size: 17px;
+        font-size: 15px;
         padding: 0;
     }
    }
+}
+    .redes{
+        li{
+            padding: 5px 5px;
+        }
+    }
 
 }
 
 // TAMAÑO MOBILE S 
 @media (max-width: 320px){
-   .header h1{
-       font-size: 30px;
+  //HEADER
+  
+    .header {
+        h1{
+            font-size: 50px;
+        }
+        li{
+            margin: 5px;
+            padding: 0;
+        }
+        ul{
+            padding: 0;
+        }
+        
+    }
+//FOOTER
+    .footer{
+        height: 100vh;
+        h2{
+            font-size: 19px;
+            letter-spacing: 6px;
+            align-content: center;
+            margin: 0;
+        }
+        h3{
+            font-size: 15px;
+            padding: 0;
+        }
+    }
+
+.redes {
+    li{
+        padding: 5px;
+    }
+    img:hover{
+        transform: scale(0.8);
+        transition: all .4s;
+    }
+}
+
+//INDEX
+
+   .divIndex {
+        h2{
+            font-size: 15px;
+        }
    }
 
-   .header li{
-       margin: 4px;
-   }
 
-   .divIndex h2{
-       font-size: 15px;
-   }
-
-   .footer{
-       height: 49vh;
-   }
-
-   .footer h2{
-       font-size: 19px;
-       letter-spacing: 6px;
-       align-content: center;
-       margin: 0;
-   }
-
-   .footer h3{
-       font-size: 15px;
-       padding: 0;
-   }
-
-   .redes li{
-       padding: 5px;
-   }
-
-   .redes img:hover{
-       transform: scale(0.8);
-       transition: all .4s;
-   }
+//PROYECTOS
 
    .proyectos{
        font-size: 15px;
@@ -253,6 +377,8 @@
    .container{
        background-color: #c8beb9;
    }
+
+//CLIENTES
 
    .clientes{
        font-size: 15px;
@@ -269,5 +395,13 @@
    .card-img-bottom{
        padding: 10px;
    }
+//NOSOTROS
 
+   .nosotros h1{
+        font-size: 20px;
+   }
+   .textoInformativo
+        .parrafo1{
+            font-size: 5px;
+        }
 }
