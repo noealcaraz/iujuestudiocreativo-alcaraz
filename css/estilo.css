@@ -3,219 +3,6 @@
   padding: 0px;
   box-sizing: border-box; }
 
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    height: 30vh;
-    align-content: center; }
-    .header h1 {
-      font-size: 40px;
-      align-content: center;
-      padding: 10px 200px;
-      justify-content: center;
-      color: #f9f9f9; }
-    .header ul {
-      display: flex;
-      margin: 0 100px; }
-    .header li {
-      margin: 0 20px; }
-      .header li a {
-        font-size: 20px; }
-  .divIndex h2 {
-    font-size: 10px; }
-  .footer h2 {
-    font-size: 15px; }
-    .footer h2 h3 {
-      font-size: 20px; }
-  .redes li {
-    display: inline-block;
-    padding: 25px 20px; }
-    .redes liimg {
-      width: 30px; }
-  .proyectos {
-    font-size: 20px; }
-  .clientes {
-    font-size: 23px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px; }
-  .card-img-top {
-    padding: 15px; }
-  .card-img-bottom {
-    padding: 15px; }
-  .mainContacto .consulta {
-    font-size: 1.7rem; }
-  .mainContacto .divFormu {
-    grid-template-columns: 220px 220px;
-    grid-template-rows: 100px 100px;
-    grid-gap: 100px;
-    grid-template-areas: "formulari formulari" "formulari formulari" "mapita mapita"; }
-    .mainContacto .divFormu .mapita {
-      padding: 0 0 30px 60px; }
-  .mainContacto .formulari {
-    margin: 0 0 0 30px; }
-  .nosotros
-h1 {
-    font-size: 10px; }
-  .imgAlbert {
-    width: 60px; } }
-
-@media (max-width: 425px) {
-  .header {
-    height: 25vh; }
-    .header li {
-      margin: 0 13px; }
-      .header li a {
-        font-size: 13px; }
-  .header a:hover {
-    transition: ease-in;
-    color: #f9f9f9;
-    font-size: 12px; }
-  .footer {
-    height: 90vh; }
-    .footer h2 {
-      font-size: 10px;
-      letter-spacing: 7px;
-      padding: 0 0 0 40px;
-      justify-content: center; }
-    .footer h3 {
-      margin: 20px 0;
-      font-size: 17px;
-      padding: 0; }
-  .redes
-li {
-    padding: 0 7px; }
-    .redes
-li img {
-      width: 20px !important; }
-  .divIndex h2 {
-    font-size: 40px; }
-  .proyectos {
-    font-size: 15px;
-    margin: 0; }
-  .container {
-    display: grid;
-    background-color: #c8beb9;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "vinito" "sirenita" "campo" "gafas" "automovil" "bambi" "offantes" "offdespues"; }
-  .clientes {
-    font-size: 25px;
-    justify-content: center;
-    align-items: center; }
-  .card-img-top {
-    padding: 10px; }
-  .card-img-bottom {
-    padding: 10px; }
-  .mainContacto .consulta {
-    font-size: 20px; }
-  .mainContacto .divFormu {
-    grid-template-columns: 220px;
-    grid-template-rows: 100px;
-    grid-gap: 50px;
-    grid-template-areas: "formulari" "formulari" "mapita"; }
-    .mainContacto .divFormu .mapita {
-      display: none; }
-  .mainContacto .formulari {
-    margin: 0 0 0 30px; }
-    .mainContacto .formulari button {
-      padding: 5px;
-      margin: 8px;
-      font-size: 20px; }
-    .mainContacto .formulari .field {
-      width: 73vw; }
-  .mainContacto .form input {
-    width: 73vw; } }
-
-@media (max-width: 375px) {
-  .header {
-    height: 30vh; }
-    .header h1 {
-      padding: 10px 100px; }
-    .header li {
-      margin: 0 7px; }
-      .header lia {
-        font-size: 10px; }
-        .header lia:hover {
-          font-size: 10px; }
-  .divIndex h2 {
-    font-size: 20px; }
-  .proyectos {
-    font-size: 15px;
-    margin: 0; }
-  .container {
-    background-color: #c8beb9; }
-  .clientes {
-    margin: 0;
-    padding: 20px;
-    font-size: 20px; }
-  .letras {
-    font-size: 15px; }
-  .card-img-top {
-    padding: 10px; }
-  .card-img-bottom {
-    padding: 10px; }
-  .footer {
-    height: 100vh; }
-    .footer h2 {
-      font-size: 15px;
-      letter-spacing: 6px;
-      padding: 0 20px 0 17px;
-      margin: 0; }
-      .footer h2 h3 {
-        margin: 20px 0;
-        font-size: 15px;
-        padding: 0; }
-  .redes li {
-    padding: 5px 5px; } }
-
-@media (max-width: 320px) {
-  .header h1 {
-    font-size: 50px; }
-  .header li {
-    margin: 5px;
-    padding: 0; }
-  .header ul {
-    padding: 0; }
-  .footer {
-    height: 100vh; }
-    .footer h2 {
-      font-size: 19px;
-      letter-spacing: 6px;
-      align-content: center;
-      margin: 0; }
-    .footer h3 {
-      font-size: 15px;
-      padding: 0; }
-  .redes li {
-    padding: 5px; }
-  .redes img:hover {
-    transform: scale(0.8);
-    transition: all .4s; }
-  .divIndex h2 {
-    font-size: 15px; }
-  .proyectos {
-    font-size: 15px;
-    margin: 0; }
-  .container {
-    background-color: #c8beb9; }
-  .clientes {
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 0; }
-  .card-img-top {
-    padding: 10px; }
-  .card-img-bottom {
-    padding: 10px; }
-  .nosotros h1 {
-    font-size: 20px; }
-  .textoInformativo
-.parrafo1 {
-    font-size: 5px; } }
-
 header {
   background-color: #000000;
   height: 20vh;
@@ -224,7 +11,7 @@ header {
   align-items: center;
   font-family: 'Oswald', sans-serif; }
   header h1 {
-    font-size: 4.5rem;
+    font-size: 80px;
     text-align: center;
     justify-content: center;
     padding: 0 0 0 300px;
@@ -237,7 +24,7 @@ header {
     margin: 0 20px; }
     header li a {
       color: #846671;
-      font-size: 1.6rem;
+      font-size: 25px;
       transition: .4s all ease 0s;
       text-decoration: none;
       letter-spacing: .4px; }
@@ -245,7 +32,7 @@ header {
         text-decoration: none;
         transition: ease-in;
         color: #f9f9f9;
-        font-size: 1.6rem; }
+        font-size: 25px; }
 
 .divIndex {
   display: flex;
@@ -253,7 +40,6 @@ header {
   align-items: center;
   background-color: #c8beb9; }
   .divIndex h2 {
-    margin-top: 15px;
     font-size: 60px;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
@@ -270,12 +56,23 @@ header {
   font-family: 'Oswald', sans-serif;
   background-color: #c8beb9; }
 
+.mainProyectos {
+  background-color: #c8beb9; }
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
+  padding: 0 0 40px 0;
+  background-color: #c8beb9;
   grid-template-areas: "vinito sirenita" "campo gafas" "automovil bambi" "offantes offdespues"; }
+  .container img {
+    padding: 40px; }
+    .container img:hover {
+      transform: scale(1.1);
+      transition: 1.6s;
+      cursor: pointer; }
 
 .campo {
   grid-area: campo;
@@ -306,8 +103,7 @@ header {
 
 .offantes {
   grid-area: offantes;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .offdespues {
   grid-area: offdespues;
@@ -321,7 +117,7 @@ header {
   font-family: 'Oswald', sans-serif;
   letter-spacing: .7px;
   font-size: 50px;
-  background-color: #c8beb9; }
+  background-color: #f9f9f9; }
 
 .letras {
   font-family: 'Oswald', sans-serif;
@@ -330,17 +126,15 @@ header {
 .mainNosotros {
   background-color: #f9f9f9; }
 
-.nosotros
-h1 {
+.nosotros h1 {
   display: flex;
   align-items: center;
   justify-content: left;
   padding: 30px 10px 20px 70px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 60px; }
 
-.textoInformativo
-.parrafo1 {
+.textoInformativo .parrafo1 {
   font-family: "Oswald", sans-serif;
   font-size: 40px;
   font-style: bold;
@@ -348,7 +142,7 @@ h1 {
   display: flex;
   text-align: center; }
 
-.parrafo2 {
+.textoInformativo .parrafo2 {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
   display: flex;
@@ -356,7 +150,34 @@ h1 {
   padding: 40px; }
 
 .imgAlbert {
-  padding: 0 0 40px 500px; }
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin: 20px;
+  grid-area: imgAlberto; }
+
+.nombre01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  grid-area: nombre01; }
+
+.parrafo3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  grid-area: parrafo3; }
+
+.bloqAlbert {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "imgAlberto nombre01 nombre01" "imgAlberto parrafo3 parrafo3"; }
 
 .consulta {
   display: flex;
@@ -381,11 +202,19 @@ h1 {
   .formulari input {
     padding: 5px;
     margin: 10px;
-    width: 25vw; }
+    width: 25vw;
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    color: #f9f9f9;
+    font-size: 25px; }
   .formulari .field {
     width: 25vw;
     padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    color: #f9f9f9;
+    font-size: 25px; }
   .formulari button {
     background-color: #000000;
     color: #846671;
@@ -410,7 +239,6 @@ h1 {
   display: flex;
   padding: 50px 100px;
   align-items: center;
-  align-content: center;
   flex-direction: column;
   background-color: #000000;
   color: #846671;
@@ -434,3 +262,313 @@ li img {
 li img:hover {
       transform: scale(0.8);
       transition: all .4s; }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: 25vh;
+    align-content: center; }
+    .header h1 {
+      font-size: 50px;
+      margin: 0;
+      padding: 0;
+      align-content: center;
+      padding: 10px 200px;
+      justify-content: center;
+      color: #f9f9f9; }
+    .header ul {
+      display: flex;
+      margin: 0 100px; }
+    .header li {
+      margin: 0 20px; }
+      .header li a {
+        font-size: 20px; }
+        .header li a:hover {
+          font-size: 20px; }
+  .footer h2 {
+    font-size: 25px; }
+    .footer h2 h3 {
+      font-size: 20px; }
+  .redes li {
+    display: inline-block;
+    padding: 25px 20px; }
+    .redes li img {
+      width: 30px; }
+  .divIndex h2 {
+    font-size: 45px; }
+  .proyectos {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 20px 0 20px; }
+  .clientes {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .letras {
+    font-size: 20px; }
+  .card-img-top {
+    padding: 15px; }
+  .card-img-bottom {
+    padding: 15px; }
+  .nosotros h1 {
+    font-size: 40px !important; }
+  .textoInformativo .parrafo1 {
+    font-size: 30px; }
+  .textoInformativo .parrafo2 {
+    font-size: 25px; }
+  .mainContacto .consulta {
+    font-size: 25px; }
+  .mainContacto .divFormu {
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 100px;
+    grid-template-areas: "formulari formulari" "formulari formulari" "mapita mapita"; }
+    .mainContacto .divFormu .mapita {
+      padding: 0 0 30px 80px; }
+  .mainContacto .formulari {
+    margin: 0 0 0 160px; }
+    .mainContacto .formulari input {
+      font-size: 20px;
+      width: 50vw;
+      padding: 3px;
+      margin: 6px; }
+    .mainContacto .formulari .field {
+      width: 50vw;
+      height: 20vh;
+      padding: 3px;
+      margin: 6px;
+      font-size: 20px; }
+    .mainContacto .formulari button {
+      font-size: 20px;
+      padding: 6px;
+      margin: 8px; }
+  .nosotros h1 {
+    font-size: 10px; }
+  .imgAlbert {
+    width: 60px; } }
+
+@media (max-width: 425px) {
+  .header {
+    height: 17vh; }
+    .header h1 {
+      font-size: 40px;
+      padding: 0;
+      margin: 0; }
+    .header ul {
+      padding: 0; }
+    .header li {
+      margin: 0 10px; }
+      .header li a {
+        font-size: 13px; }
+        .header li a:hover {
+          font-size: 13px; }
+  .footer {
+    height: 30vh;
+    padding: 25px 50px; }
+    .footer h2 {
+      font-size: 25px;
+      letter-spacing: 4px;
+      margin: 0;
+      padding: 0px;
+      justify-content: center; }
+    .footer h3 {
+      margin: 20px 0;
+      font-size: 17px;
+      padding: 0; }
+  .redes li {
+    padding: 0 7px; }
+    .redes li img {
+      width: 20px !important; }
+  .divIndex h2 {
+    font-size: 40px;
+    margin: 0; }
+  .proyectos {
+    font-size: 35px;
+    margin: 0; }
+  .container {
+    display: grid;
+    background-color: #c8beb9;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "vinito" "sirenita" "campo" "gafas" "automovil" "bambi" "offantes" "offdespues"; }
+  .clientes {
+    font-size: 35px;
+    justify-content: center;
+    align-items: center; }
+  .card-img-top {
+    padding: 10px; }
+  .card-img-bottom {
+    padding: 10px; }
+  .nosotros h1 {
+    justify-content: center;
+    padding: 20px;
+    margin: 0px; }
+  .textoInformativo .parrafo1 {
+    padding: 10px;
+    margin: 0px; }
+  .textoInformativo .parrafo2 {
+    padding: 10px; }
+  .imgAlbert {
+    margin: 0;
+    padding: 20px 0 0 27px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .nombre01 {
+    font-size: 40px; }
+  .parrafo3 {
+    font-size: 25px;
+    padding: 10px; }
+  .bloqAlbert {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "imgAlberto" "nombre01" "parrafo3"; }
+  .mainContacto .consulta {
+    font-size: 20px; }
+  .mainContacto .divFormu {
+    grid-template-columns: 220px;
+    grid-template-rows: 100px;
+    grid-gap: 50px;
+    grid-template-areas: "formulari" "formulari" "mapita"; }
+    .mainContacto .divFormu .mapita {
+      display: none; }
+  .mainContacto .formulari {
+    margin: 0px;
+    padding: 0 0 0 50px; }
+    .mainContacto .formulari button {
+      padding: 5px;
+      margin: 0px 0px 0px 130px;
+      font-size: 20px; }
+    .mainContacto .formulari .field {
+      width: 73vw; }
+  .mainContacto .form input {
+    width: 73vw; } }
+
+@media (max-width: 375px) {
+  .header {
+    height: 17vh; }
+    .header h1 {
+      padding: 10px 100px; }
+    .header li {
+      margin: 0 7px; }
+      .header lia {
+        font-size: 10px; }
+        .header lia:hover {
+          font-size: 10px; }
+  .footer {
+    height: 30vh;
+    padding: 25px 50px; }
+    .footer h2 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      padding: 0 20px 0 17px;
+      margin: 0; }
+      .footer h2 h3 {
+        margin: 20px 0;
+        font-size: 15px;
+        padding: 0; }
+  .redes li {
+    padding: 5px 5px; }
+  .divIndex h2 {
+    font-size: 21px; }
+  .proyectos {
+    font-size: 30px;
+    margin: 0; }
+  .container {
+    background-color: #c8beb9; }
+  .clientes {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px; }
+  .letras {
+    font-size: 15px; }
+  .card-img-top {
+    padding: 10px; }
+  .card-img-bottom {
+    padding: 10px; }
+  .nosotros h1 {
+    font-size: 30px; }
+  .textoInformativo .parrafo1 {
+    font-size: 25px; }
+  .textoInformativo .parrafo2 {
+    font-size: 20px; }
+  .imgAlbert {
+    padding: 0 0 0 70px;
+    width: 300px; }
+  .nombre01 {
+    font-size: 30px; }
+  .parrafo3 {
+    font-size: 20px;
+    padding: 0 0 0 20px; }
+  .mainContacto .consulta {
+    font-size: 22px; }
+  .mainContacto .formulari input {
+    font-size: 15px; }
+  .mainContacto .formulari button {
+    font-size: 18px;
+    margin: 0 0 0 110px; } }
+
+@media (max-width: 320px) {
+  .header h1 {
+    font-size: 30px; }
+  .header li {
+    margin: 5px;
+    padding: 0; }
+  .header ul {
+    padding: 0; }
+  .footer {
+    height: 30vh;
+    padding: 15px 20px; }
+    .footer h2 {
+      font-size: 19px;
+      letter-spacing: 3px;
+      align-content: center;
+      margin: 0;
+      padding: 0; }
+    .footer h3 {
+      font-size: 15px;
+      padding: 0;
+      margin: 0; }
+  .redes li {
+    padding: 5px; }
+  .redes img:hover {
+    transform: scale(0.8);
+    transition: all 0.4s; }
+  .divIndex h2 {
+    font-size: 23px; }
+  .proyectos {
+    font-size: 23px;
+    margin: 0; }
+  .container {
+    background-color: #c8beb9; }
+  .clientes {
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0; }
+  .card-img-top {
+    padding: 10px; }
+  .card-img-bottom {
+    padding: 10px; }
+  .mainNosotros .nosotros {
+    font-size: 20px; }
+  .mainNosotros .textoInformativo .parrafo1 {
+    font-size: 20px; }
+  .mainNosotros .textoInformativo .parrafo2 {
+    font-size: 18px; }
+  .mainNosotros .imgAlbert {
+    padding: 0 0 0 20px; }
+  .mainNosotros .parrafo3 {
+    padding: 0 0 0 15px;
+    margin: 0 0 25px 0; }
+  .mainContacto .consulta {
+    padding: 15px; }
+  .mainContacto .formulari {
+    padding: 0 0 0 35px; }
+    .mainContacto .formulari button {
+      margin: 0 0 0 95px; } }

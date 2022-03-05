@@ -7,16 +7,31 @@
     background-color: #c8beb9;
 }
 
+.mainProyectos{
+    background-color: $lilaClarito;
+}
+
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
+    padding: 0 0 40px 0;
+    background-color: $lilaClarito;
     grid-template-areas: 
       "vinito sirenita"
       "campo gafas"
       "automovil bambi"
-      "offantes offdespues"; 
+      "offantes offdespues";
+      img{
+          padding: 40px;
+      
+        &:hover{
+	        transform:scale(1.1);
+            transition: 1.6s;
+            cursor: pointer;
+        }
+      }
 }
 
 .campo{
@@ -55,7 +70,6 @@
 .offantes{
     grid-area: offantes;
     width: 100%;
-    height: 100%;
 }
 
 .offdespues{

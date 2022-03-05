@@ -5,7 +5,6 @@
 }
 
 // VARIABLES
-@import './variables/responsive';
 @import './variables/colores';
 @import './variables/extend';
 
@@ -17,3 +16,5 @@
 @import './secciones/nosotros';
 @import './secciones/contacto';
 @import './header-footer/footer';
+
+@import './variables/responsive';
