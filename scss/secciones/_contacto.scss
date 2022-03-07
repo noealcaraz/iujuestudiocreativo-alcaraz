@@ -1,72 +1,70 @@
-.consulta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 60px 10px;
-    font-family: 'Oswald', sans-serif;
-    color: $negro1;
-    font-size: 40px; 
+.consulta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 60px 10px;
+  font-family: "Oswald", sans-serif;
+  color: $negro1;
+  font-size: 40px;
 }
 
-.mainContacto{
-    @if ($colorFondo == true){
-        background-color: $blanco;
-    } @else {
-        background-color: gray;
-    }
-    .mapita{
-        padding: 0 0 90px 0;
-
-    }
-}
-
-.formulari{
-    width: 400px;
-    padding: 20px;
-    margin: 0 0 0 150px;
+.mainContacto {
+  @if ($colorFondo == true) {
     background-color: $blanco;
-    input{
-        padding: 5px;
-        margin: 10px;
-        width: 30vw;
-        font-family: $osvaldo;
-        background-color: $negro;
-        color: $blanco;
-        font-size: 20px;
-    }
-    .field{
-        width: 30vw;
-        padding: 5px;
-        margin: 10px;
-        font-family: $osvaldo;
-        background-color: $negro;
-        color: $blanco;
-        font-size: 20px;
-    }
-    button{
-        background-color: $negro;
-        color: $lila;
-        font-family: $osvaldo;
-        padding: 9px;
-        margin: 10px;
-        font-size: 1.5rem;
-    }
+  } @else {
+    background-color: gray;
+  }
+  .mapita {
+    padding: 0 0 90px 0;
+  }
 }
 
-.formulari{
-    grid-area: formulari;
+.formulari {
+  width: 400px;
+  padding: 20px;
+  margin: 0 0 0 150px;
+  background-color: $blanco;
+  input {
+    padding: 5px;
+    margin: 10px;
+    width: 30vw;
+    font-family: $osvaldo;
+    background-color: $negro;
+    color: $blanco;
+    font-size: 20px;
+  }
+  .field {
+    width: 30vw;
+    padding: 5px;
+    margin: 10px;
+    font-family: $osvaldo;
+    background-color: $negro;
+    color: $blanco;
+    font-size: 20px;
+  }
+  button {
+    background-color: $negro;
+    color: $lila;
+    font-family: $osvaldo;
+    padding: 9px;
+    margin: 10px;
+    font-size: 1.5rem;
+  }
 }
 
-.mapita{
-    grid-area: mapita;
+.formulari {
+  grid-area: formulari;
 }
 
-.divFormu{
-    display: grid;
-    grid-gap: 140px;
-    grid-template-columns: 220px 220px 220px;
-    grid-template-areas:
-               "formulari formulari mapita"
-               "formulari formulari mapita";
+.mapita {
+  grid-area: mapita;
+}
 
+.divFormu {
+  display: grid;
+  grid-gap: 140px;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-areas:
+    "formulari formulari mapita"
+    "formulari formulari mapita";
 }

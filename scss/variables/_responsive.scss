@@ -96,30 +96,30 @@
     }
   }
 
-  .imgAlbert{
+  .imgAlbert {
     margin: 0 0 0 150px;
     padding: 20px 0 0 27px;
     width: 300px;
     height: 310px;
   }
 
-  .nombre01{
+  .nombre01 {
     font-size: 30px;
     width: 420px;
   }
 
-  .parrafo3{
+  .parrafo3 {
     font-size: 20px;
   }
 
-  .bloqAlbert{
+  .bloqAlbert {
     grid-gap: 10px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-               "imgAlberto"
-               "nombre01"
-               "parrafo3";
+      "imgAlberto"
+      "nombre01"
+      "parrafo3";
   }
 
   //CONTACTO
@@ -169,19 +169,19 @@
 
   .header {
     height: 17vh;
-    h1{
+    h1 {
       font-size: 40px;
       padding: 0;
       margin: 0;
     }
-    ul{
+    ul {
       padding: 0;
     }
     li {
       margin: 0 10px;
       a {
         font-size: 13px;
-        &:hover{
+        &:hover {
           font-size: 13px;
         }
       }
@@ -261,39 +261,37 @@
   }
 
   //NOSOTROS
-  .nosotros h1{
+  .nosotros h1 {
     justify-content: center;
     padding: 20px;
     margin: 0px;
   }
 
-  .textoInformativo{
-    .parrafo1{
+  .textoInformativo {
+    .parrafo1 {
       padding: 10px;
       margin: 0px;
     }
-    .parrafo2{
+    .parrafo2 {
       padding: 10px;
     }
   }
-  
-  .imgAlbert{
+
+  .imgAlbert {
     margin: 0 0 0 50px;
     padding: 20px 0 0 27px;
     width: 300px;
     height: 310px;
   }
 
-  .nombre01{
+  .nombre01 {
     font-size: 30px;
   }
 
-  .parrafo3{
+  .parrafo3 {
     font-size: 20px;
     padding: 10px;
   }
-
-  
 
   //CONTACTO
 
@@ -351,9 +349,9 @@
     }
   }
 
-   //FOOTER
+  //FOOTER
 
-   .footer {
+  .footer {
     height: 30vh;
     padding: 25px 50px;
     h2 {
@@ -413,53 +411,53 @@
 
   //NOSOTROS
 
-  .nosotros h1{
+  .nosotros h1 {
     font-size: 30px;
   }
 
-  .textoInformativo{
-    .parrafo1{
+  .textoInformativo {
+    .parrafo1 {
       font-size: 25px;
     }
-    .parrafo2{
+    .parrafo2 {
       font-size: 20px;
     }
   }
- .imgAlbert{
-   padding: 0 0 0 25px;
-   width: 350px;
-   height: 340px;
-   margin: 0;
- }
+  .imgAlbert {
+    padding: 0 0 0 25px;
+    width: 350px;
+    height: 340px;
+    margin: 0;
+  }
 
- .nombre01{
-   font-size: 30px;
-   width: 320px;
- }
+  .nombre01 {
+    font-size: 30px;
+    width: 320px;
+  }
 
- .parrafo3{
-   font-size: 20px;
-   padding: 0 0 0 20px;
- }
+  .parrafo3 {
+    font-size: 20px;
+    padding: 0 0 0 20px;
+  }
 
- //CONTACTO
+  //CONTACTO
 
- .mainContacto{
- .consulta{
-   font-size: 22px;
- }
+  .mainContacto {
+    .consulta {
+      font-size: 22px;
+    }
 
- .formulari{
-   width: 320px;
-   input{
-     font-size: 15px;
-   }
-   button{
-     font-size: 18px;
-     margin: 0 0 0 110px;
-   }
- }
-}
+    .formulari {
+      width: 320px;
+      input {
+        font-size: 15px;
+      }
+      button {
+        font-size: 18px;
+        margin: 0 0 0 110px;
+      }
+    }
+  }
 }
 
 // TAMAÑO MOBILE S
@@ -546,46 +544,46 @@
   }
   //NOSOTROS
 
-  .mainNosotros{
-  .nosotros {
-    font-size: 20px;
-  }
-  .textoInformativo {
-  .parrafo1 {
-    font-size: 20px;
-  }
-  .parrafo2 {
-    font-size: 18px;
-  }
-}
-  .imgAlbert{
-    padding: 0 0 0 20px;
+  .mainNosotros {
+    .nosotros {
+      font-size: 20px;
+    }
+    .textoInformativo {
+      .parrafo1 {
+        font-size: 20px;
+      }
+      .parrafo2 {
+        font-size: 18px;
+      }
+    }
+    .imgAlbert {
+      padding: 0 0 0 20px;
+    }
+
+    .parrafo3 {
+      padding: 0 0 0 15px;
+      margin: 0 0 25px 0;
+    }
   }
 
-  .parrafo3{
-    padding: 0 0 0 15px;
-    margin: 0 0 25px 0;
-  }
-}
-
-  .imgAlbert{
+  .imgAlbert {
     padding: 0 0 0 40px;
     width: 270px;
     height: 270px;
   }
 
-//CONTACTO
+  //CONTACTO
 
-  .mainContacto{
-    .consulta{
+  .mainContacto {
+    .consulta {
       padding: 15px;
     }
 
-    .formulari{
+    .formulari {
       height: 300px;
       width: 250px;
       padding: 0 0 0 35px;
-      button{
+      button {
         margin: 0 0 0 95px;
       }
     }

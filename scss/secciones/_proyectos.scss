@@ -1,78 +1,78 @@
 .proyectos {
-    text-align: center;
-    padding: 20px;
-    font-size: 60px;
-    letter-spacing: .7px;
-    font-family: 'Oswald', sans-serif;
-    background-color: #c8beb9;
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+  letter-spacing: 0.7px;
+  font-family: "Oswald", sans-serif;
+  background-color: #c8beb9;
 }
 
-.mainProyectos{
-    background-color: $lilaClarito;
+.mainProyectos {
+  background-color: $lilaClarito;
 }
 
 .container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    padding: 0 0 40px 0;
-    background-color: $lilaClarito;
-    grid-template-areas: 
-      "vinito sirenita"
-      "campo gafas"
-      "automovil bambi"
-      "offantes offdespues";
-      img{
-          padding: 40px;
-      
-        &:hover{
-	        transform:scale(1.1);
-            transition: 1.6s;
-            cursor: pointer;
-        }
-      }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  padding: 0 0 40px 0;
+  background-color: $lilaClarito;
+  grid-template-areas:
+    "vinito sirenita"
+    "campo gafas"
+    "automovil bambi"
+    "offantes offdespues";
+  img {
+    padding: 40px;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 1.6s;
+      cursor: pointer;
+    }
+  }
 }
 
-.campo{
-    grid-area: campo;
-    width: 100%;
+.campo {
+  grid-area: campo;
+  width: 100%;
 }
 
-.gafas{
-    grid-area: gafas;
-    width: 100%;
-    height: 100%;
+.gafas {
+  grid-area: gafas;
+  width: 100%;
+  height: 100%;
 }
 
-.vinito{
-    grid-area: vinito;
-    width: 100%;
+.vinito {
+  grid-area: vinito;
+  width: 100%;
 }
 
-.sirenita{
-    grid-area: sirenita;
-    width: 100%;
-    height: 100%;
+.sirenita {
+  grid-area: sirenita;
+  width: 100%;
+  height: 100%;
 }
 
-.automovil{
-    grid-area: automovil;
-    width: 100%;
+.automovil {
+  grid-area: automovil;
+  width: 100%;
 }
 
-.bambi{
-    grid-area: bambi;
-    width: 100%;
-    height: 100%;
+.bambi {
+  grid-area: bambi;
+  width: 100%;
+  height: 100%;
 }
 
-.offantes{
-    grid-area: offantes;
-    width: 100%;
+.offantes {
+  grid-area: offantes;
+  width: 100%;
 }
 
-.offdespues{
-    grid-area: offdespues;
-    width: 100%;
+.offdespues {
+  grid-area: offdespues;
+  width: 100%;
 }
