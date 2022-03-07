@@ -8,13 +8,13 @@
   justify-content: left;
   padding: 30px 10px 20px 70px;
   font-family: "Oswald", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .textoInformativo {
   .parrafo1 {
     font-family: $osvaldo;
-    font-size: 40px;
+    font-size: 30px;
     font-style: bold;
     padding: 30px;
     display: flex;
@@ -22,7 +22,7 @@
   }
   .parrafo2 {
     font-family: $osvaldo;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     text-align: center;
     padding: 40px;
@@ -30,6 +30,8 @@
 }
   .imgAlbert {
     display: flex;
+    width: 360px;
+    height: 380px;
     justify-content: center;
     align-content: center;
     padding: 20px;
@@ -39,9 +41,11 @@
 
   .nombre01{
       display: flex;
+      width: 520px;
+      height: 120px;
       justify-content: center;
       align-items: center;
-      font-size: 50px;
+      font-size: 35px;
       font-family: $osvaldo;
       grid-area: nombre01;
   }
@@ -49,7 +53,7 @@
   .parrafo3{
       display: flex;
       justify-content: center;
-      font-size: 35px;
+      font-size: 20px;
       font-family: $osvaldo;
       grid-area: parrafo3;
   }

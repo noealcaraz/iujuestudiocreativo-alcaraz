@@ -5,7 +5,7 @@
     padding: 30px 60px 10px;
     font-family: 'Oswald', sans-serif;
     color: $negro1;
-    font-size: 3.5rem; 
+    font-size: 40px; 
 }
 
 .mainContacto{
@@ -16,32 +16,32 @@
     }
     .mapita{
         padding: 0 0 90px 0;
-        width: 120px;
+
     }
 }
 
 .formulari{
     width: 400px;
     padding: 20px;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 150px;
     background-color: $blanco;
     input{
         padding: 5px;
         margin: 10px;
-        width: 25vw;
+        width: 30vw;
         font-family: $osvaldo;
         background-color: $negro;
         color: $blanco;
-        font-size: 25px;
+        font-size: 20px;
     }
     .field{
-        width: 25vw;
+        width: 30vw;
         padding: 5px;
         margin: 10px;
         font-family: $osvaldo;
         background-color: $negro;
         color: $blanco;
-        font-size: 25px;
+        font-size: 20px;
     }
     button{
         background-color: $negro;
@@ -63,7 +63,7 @@
 
 .divFormu{
     display: grid;
-    grid-gap: 200px;
+    grid-gap: 140px;
     grid-template-columns: 220px 220px 220px;
     grid-template-areas:
                "formulari formulari mapita"
